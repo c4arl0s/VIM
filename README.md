@@ -2,7 +2,7 @@
 
 wiki VIM
 
-1. [How to inserta string at the beginning of a line]()
+1. [How to insert a string at the beginning of a line]()
 
 # 1. [How to insert a string at the beginning of a line]()
 
