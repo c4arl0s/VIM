@@ -5,7 +5,7 @@ wiki VIM
 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#1-how-to-insert-a-string-at-the-beginning-of-a-line)
 2. [How to cut and paste](https://github.com/c4arl0s/VIM/blob/master/README.md#2-how-to-cut-and-paste-ctrl-v-or-ctrl-v)
 
-# 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#2-how-to-cut-and-paste-ctrl-v-or-ctrl-v)
+# 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
   * ctrl-v
   * drop down with "down arrow" up to the desired line
@@ -14,7 +14,7 @@ wiki VIM
   * type scape
   * then go down with the down arrow, it automatically will appear what you want
   
-# 2. [How to cut and paste (ctrl-v or ctrl-V)]()
+# 2. [How to cut and paste (ctrl-v or ctrl-V)](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 1. take place where your want to start to copy or cut
 2. Type ctrl-v if you want to select a character or type cltr-V if you want to select a full line.
