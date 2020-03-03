@@ -4,7 +4,7 @@ wiki VIM
 
 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#1-how-to-insert-a-string-at-the-beginning-of-a-line)
 2. [How to cut and paste](https://github.com/c4arl0s/VIM/blob/master/README.md#2-how-to-cut-and-paste-ctrl-v-or-ctrl-v)
-3. [How to find a string]()
+3. [How to find a string](https://github.com/c4arl0s/VIM/blob/master/README.md#3-how-to-find-a-string)
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -23,7 +23,7 @@ wiki VIM
 4. if you want to cut, type Esc then d (delete), if you want to copy, Press Esc then y (yank)
 5. then you move where you want to paste, then press Esq then type p (paste)
 
-# 3. [How to find a string]()
+# 3. [How to find a string](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 1. Press Esc
 2. type: /
