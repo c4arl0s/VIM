@@ -5,7 +5,7 @@ wiki VIM
 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#1-how-to-insert-a-string-at-the-beginning-of-a-line)
 2. [How to cut and paste](https://github.com/c4arl0s/VIM/blob/master/README.md#2-how-to-cut-and-paste-ctrl-v-or-ctrl-v)
 3. [How to find a string](https://github.com/c4arl0s/VIM/blob/master/README.md#3-how-to-find-a-string)
-4. [how to replace with an / across the string to replace](https://github.com/c4arl0s/VIM/blob/master/README.md#3-how-to-find-a-replace)
+4. [how to replace with an / across the string to replace](https://github.com/c4arl0s/VIM/blob/master/README.md#4-how-to-replace-with-an--across-the-string-to-replace)
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -31,7 +31,7 @@ wiki VIM
 3. type what you want to find.
 4. Once you find it, press n, to the next ocurrence.
 
-# 4. [how to replace with an / across the string to replace]()
+# 4. [how to replace with an / across the string to replace](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 1. Press Esc
 2. Type :%s/stringTolookFor/stringToReplace/
