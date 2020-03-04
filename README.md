@@ -24,14 +24,14 @@ wiki VIM
 4. if you want to cut, type Esc then d (delete), if you want to copy, Press Esc then y (yank)
 5. then you move where you want to paste, then press Esq then type p (paste)
 
-# 3. [How to find a replace](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
+# 3. [How to find a string](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 1. Press Esc
 2. type: /
 3. type what you want to find.
 4. Once you find it, press n, to the next ocurrence.
 
-4. [how to replace with an / across the string to replace]()
+# 4. [how to replace with an / across the string to replace]()
 
 1. Press Esc
 2. Type :%s/stringTolookFor/stringToReplace/
