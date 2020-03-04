@@ -40,10 +40,13 @@ if the string contains an character like /, then type \/ to scape it.
 
 example: 
 
-before: ()
-after: (https://github.com/c4arl0s/NavigationAndWorkflows#navigationandworkflows)
+- before: ()
+- after: (https://github.com/c4arl0s/NavigationAndWorkflows#navigationandworkflows)
 
-type :%s/()/(https:\/\/github.com\/c4arl0s\/NavigationAndWorkflows#navigationandworkflows)/
-Then type enter.
+- type 
+```console
+:%s/()/(https:\/\/github.com\/c4arl0s\/NavigationAndWorkflows#navigationandworkflows)/
+```
+- Then type enter.
 
 
