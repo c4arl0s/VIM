@@ -7,6 +7,7 @@ wiki VIM
 3. [How to find a string](https://github.com/c4arl0s/VIM/blob/master/README.md#3-how-to-find-a-string)
 4. [how to replace with an / across the string to replace](https://github.com/c4arl0s/VIM/blob/master/README.md#4-how-to-replace-with-an--across-the-string-to-replace)
 5. [Repeats the last action](https://github.com/c4arl0s/VIM/blob/master/README.md#5-repeats-the-last-action)
+6. [Insert a # character at the beginning of the line]()
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -52,6 +53,10 @@ example:
 
 # 5. [Repeats the last action](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
-1. type ESC
+1. Press ESC
 2. press .
 
+# 6. [Insert a # character at the beginning of the line]()
+
+1. Press Esc
+2. :1,40s/^/# /
