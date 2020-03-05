@@ -8,6 +8,8 @@ wiki VIM
 4. [how to replace with an / across the string to replace](https://github.com/c4arl0s/VIM/blob/master/README.md#4-how-to-replace-with-an--across-the-string-to-replace)
 5. [Repeats the last action](https://github.com/c4arl0s/VIM/blob/master/README.md#5-repeats-the-last-action)
 6. [Insert a # character at the beginning of the line](https://github.com/c4arl0s/VIM/blob/master/README.md#6-insert-a--character-at-the-beginning-of-the-line)
+7. [Find an precise string an replace with something](https://github.com/c4arl0s/VIM/blob/master/README.md#7-find-an-precise-string-an-replace-with-something)
+8. [Insert a character or string at the end of a selected line](https://github.com/c4arl0s/VIM/blob/master/README.md#8-insert-a-character-or-string-at-the-end-of-a-selected-line)
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -60,3 +62,24 @@ example:
 
 1. Press Esc
 2. :1,40s/^/# /
+
+# 7. [Find an precise string an replace with something](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
+
+1. Press ESC
+2. :
+3. Type
+
+```console
+:%s/\<direccionMemoria\>/memoryDirection/
+```
+
+# 8. [Insert a character or string at the end of a selected line]()
+
+1. Select the line or lines. Type ESC, then ctrl-V.
+2. then type: s/$/anyString/
+
+it will looks like this:
+
+```console
+:'<,'>s/$/anyString/
+```
