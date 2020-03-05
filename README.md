@@ -6,6 +6,7 @@ wiki VIM
 2. [How to cut and paste](https://github.com/c4arl0s/VIM/blob/master/README.md#2-how-to-cut-and-paste-ctrl-v-or-ctrl-v)
 3. [How to find a string](https://github.com/c4arl0s/VIM/blob/master/README.md#3-how-to-find-a-string)
 4. [how to replace with an / across the string to replace](https://github.com/c4arl0s/VIM/blob/master/README.md#4-how-to-replace-with-an--across-the-string-to-replace)
+5. [Repeats the last action]()
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -49,4 +50,8 @@ example:
 ```
 - Then type enter.
 
+# 5. [Repeats the last action]()
+
+1. type ESC
+2. press .
 
