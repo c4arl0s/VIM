@@ -62,7 +62,7 @@ example:
 1. Press Esc
 2. :1,40s/^/# /
 
-# 7. [Find an precise string an replace with something]()
+# 7. [Find an precise string an replace with something](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 1. Press ESC
 2. :
