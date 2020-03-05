@@ -56,7 +56,7 @@ example:
 1. Press ESC
 2. press .
 
-# 6. [Insert a # character at the beginning of the line]()
+# 6. [Insert a # character at the beginning of the line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 1. Press Esc
 2. :1,40s/^/# /
