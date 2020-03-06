@@ -10,6 +10,7 @@ wiki VIM
 6. [Insert a # character at the beginning of the line](https://github.com/c4arl0s/VIM/blob/master/README.md#6-insert-a--character-at-the-beginning-of-the-line)
 7. [Find an precise string an replace with something](https://github.com/c4arl0s/VIM/blob/master/README.md#7-find-an-precise-string-an-replace-with-something)
 8. [Insert a character or string at the end of a selected line](https://github.com/c4arl0s/VIM/blob/master/README.md#8-insert-a-character-or-string-at-the-end-of-a-selected-line)
+9. [Insert a consecutive number at the beginning of a selected line]()
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -82,4 +83,10 @@ it will looks like this:
 
 ```console
 :'<,'>s/$/anyString/
+```
+
+# 9. [Insert a consecutive number at the beginning of a selected line]()
+
+```console
+let i=1 | '<,'>g/^/ s//\=printf("%03d ",i) / | let i+=1
 ```
