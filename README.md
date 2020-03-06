@@ -73,7 +73,7 @@ example:
 :%s/\<direccionMemoria\>/memoryDirection/
 ```
 
-# 8. [Insert a character or string at the end of a selected line]()
+# 8. [Insert a character or string at the end of a selected line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 1. Select the line or lines. Type ESC, then ctrl-V.
 2. then type: s/$/anyString/
