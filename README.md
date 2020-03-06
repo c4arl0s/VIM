@@ -10,6 +10,8 @@ wiki VIM
 6. [Insert a # character at the beginning of the line](https://github.com/c4arl0s/VIM/blob/master/README.md#6-insert-a--character-at-the-beginning-of-the-line)
 7. [Find an precise string an replace with something](https://github.com/c4arl0s/VIM/blob/master/README.md#7-find-an-precise-string-an-replace-with-something)
 8. [Insert a character or string at the end of a selected line](https://github.com/c4arl0s/VIM/blob/master/README.md#8-insert-a-character-or-string-at-the-end-of-a-selected-line)
+9. [Insert a consecutive number at the beginning of a selected line]()
+10. [Delete all lines that contains a specific patter]()
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -73,7 +75,7 @@ example:
 :%s/\<direccionMemoria\>/memoryDirection/
 ```
 
-# 8. [Insert a character or string at the end of a selected line]()
+# 8. [Insert a character or string at the end of a selected line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 1. Select the line or lines. Type ESC, then ctrl-V.
 2. then type: s/$/anyString/
@@ -83,3 +85,20 @@ it will looks like this:
 ```console
 :'<,'>s/$/anyString/
 ```
+
+# 9. [Insert a consecutive number at the beginning of a selected line]()
+
+```console
+let i=1 | '<,'>g/^/ s//\=printf("%d ",i) / | let i+=1
+```
+# 10. [Delete all lines that contains a specific pattern]()
+
+1. Press Esc
+2. type: 
+```consoile
+:g/.com/d
+```
+g - find it globally
+.com - pattern .com
+d - delete
+
