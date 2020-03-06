@@ -88,5 +88,5 @@ it will looks like this:
 # 9. [Insert a consecutive number at the beginning of a selected line]()
 
 ```console
-let i=1 | '<,'>g/^/ s//\=printf("%03d ",i) / | let i+=1
+let i=1 | '<,'>g/^/ s//\=printf("%d ",i) / | let i+=1
 ```
