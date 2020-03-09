@@ -94,8 +94,10 @@ let i=1 | '<,'>g/^/ s//\=printf("%d ",i) / | let i+=1
 # 10. [Delete all lines that contains a specific pattern]()
 
 1. Press Esc
-2. type: g/.com/d
-
+2. type: 
+```consoile
+:g/.com/d
+```
 g - find it globally
 .com - pattern .com
 d - delete
