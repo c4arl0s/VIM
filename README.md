@@ -11,6 +11,7 @@ wiki VIM
 7. [Find an precise string an replace with something](https://github.com/c4arl0s/VIM/blob/master/README.md#7-find-an-precise-string-an-replace-with-something)
 8. [Insert a character or string at the end of a selected line](https://github.com/c4arl0s/VIM/blob/master/README.md#8-insert-a-character-or-string-at-the-end-of-a-selected-line)
 9. [Insert a consecutive number at the beginning of a selected line]()
+10. [Delete all lines that contains a specific patter]()
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -90,3 +91,12 @@ it will looks like this:
 ```console
 let i=1 | '<,'>g/^/ s//\=printf("%d ",i) / | let i+=1
 ```
+# 10. [Delete all lines that contains a specific pattern]()
+
+1. Press Esc
+2. type: g/.com/d
+
+g - find it globally
+.com - pattern .com
+d - delete
+
