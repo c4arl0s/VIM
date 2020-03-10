@@ -12,6 +12,8 @@ wiki VIM
 8. [Insert a character or string at the end of a selected line](https://github.com/c4arl0s/VIM/blob/master/README.md#8-insert-a-character-or-string-at-the-end-of-a-selected-line)
 9. [Insert a consecutive number at the beginning of a selected line]()
 10. [Delete all lines that contains a specific patter]()
+11. [Make lowercase]()
+12. [Make upercase]()
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -101,4 +103,22 @@ let i=1 | '<,'>g/^/ s//\=printf("%d ",i) / | let i+=1
 g - find it globally
 .com - pattern .com
 d - delete
+
+# 11. [Make lowercase]()
+
+- Select word, line or several words, then:
+
+```console
+:gu
+````
+
+# 12. [Make upercase]()
+
+- Select word, line or several words, then:
+
+```console
+:gU
+```
+
+
 
