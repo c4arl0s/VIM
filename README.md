@@ -106,11 +106,15 @@ d - delete
 
 # 11. [Make lowercase]()
 
+- Select word, line or several words, then:
+
 ```console
 :gu
 ````
 
 # 12. [Make upercase]()
+
+- Select word, line or several words, then:
 
 ```console
 :gU
