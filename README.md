@@ -11,9 +11,10 @@ wiki VIM
 7. [Find an precise string an replace with something](https://github.com/c4arl0s/VIM/blob/master/README.md#7-find-an-precise-string-an-replace-with-something)
 8. [Insert a character or string at the end of a selected line](https://github.com/c4arl0s/VIM/blob/master/README.md#8-insert-a-character-or-string-at-the-end-of-a-selected-line)
 9. [Insert a consecutive number at the beginning of a selected line]()
-10. [Delete all lines that contains a specific patter]()
-11. [Make lowercase]()
-12. [Make upercase]()
+10. [Delete all lines that contains a specific patter](https://github.com/c4arl0s/VIM#10-delete-all-lines-that-contains-a-specific-pattern)
+11. [Make lowercase](https://github.com/c4arl0s/VIM#11-make-lowercase)
+12. [Make upercase](https://github.com/c4arl0s/VIM#12-make-upercase)
+13. [Find any String inside parenthesis Ex. (http://...)](https://github.com/c4arl0s/VIM#13-find-any-string-inside-parenthesis-ex-http-with-empty-content-)
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -88,7 +89,7 @@ it will looks like this:
 :'<,'>s/$/anyString/
 ```
 
-# 9. [Insert a consecutive number at the beginning of a selected line]()
+# 9. [Insert a consecutive number at the beginning of a selected line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 ```console
 let i=1 | '<,'>g/^/ s//\=printf("%d ",i) / | let i+=1
@@ -104,7 +105,30 @@ g - find it globally
 .com - pattern .com
 d - delete
 
-# 11. [Make lowercase]()
+- another example: Delete all lines that start with // and it is the end of the line
+
+1. press Esc
+2. type:
+
+```console
+:%g/^\/\/$/d
+````
+
+```vim
+// hola
+// 
+// como estas
+//
+```
+
+output:
+
+```vim
+// hola
+// como estas
+```
+
+# 11. [Make lowercase](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 - Select word, line or several words, then:
 
@@ -112,7 +136,7 @@ d - delete
 :gu
 ````
 
-# 12. [Make upercase]()
+# 12. [Make upercase](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 - Select word, line or several words, then:
 
@@ -120,5 +144,10 @@ d - delete
 :gU
 ```
 
+# 13. [Find any String inside parenthesis Ex. (http://...) with empty content ()](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
+
+```console
+:%s/(.*)/()/
+```
 
 
