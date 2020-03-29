@@ -14,6 +14,7 @@ wiki VIM
 10. [Delete all lines that contains a specific patter]()
 11. [Make lowercase]()
 12. [Make upercase]()
+13. [Find any String inside parenthesis Ex. (http://...)]()
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -120,5 +121,10 @@ d - delete
 :gU
 ```
 
+# 13. [Find any String inside parenthesis Ex. (http://...) with empty content ()]()
+
+```console
+:%s/(.*)/()/
+```
 
 
