@@ -105,6 +105,29 @@ g - find it globally
 .com - pattern .com
 d - delete
 
+- another example: Delete all lines that start with // and it is the end of the line
+
+1. press Esc
+2. type:
+
+```console
+:%g/^\/\/$/d
+````
+
+```vim
+// hola
+// 
+// como estas
+//
+```
+
+output:
+
+```vim
+// hola
+// como estas
+```
+
 # 11. [Make lowercase](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
 - Select word, line or several words, then:
