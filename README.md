@@ -1,7 +1,10 @@
 # VIM
 
+
 wiki VIM
 
+
+0. [Basics of VIM]()
 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#1-how-to-insert-a-string-at-the-beginning-of-a-line)
 2. [How to cut and paste](https://github.com/c4arl0s/VIM/blob/master/README.md#2-how-to-cut-and-paste-ctrl-v-or-ctrl-v)
 3. [How to find a string](https://github.com/c4arl0s/VIM/blob/master/README.md#3-how-to-find-a-string)
@@ -15,6 +18,28 @@ wiki VIM
 11. [Make lowercase](https://github.com/c4arl0s/VIM#11-make-lowercase)
 12. [Make upercase](https://github.com/c4arl0s/VIM#12-make-upercase)
 13. [Find any String inside parenthesis Ex. (http://...)](https://github.com/c4arl0s/VIM#13-find-any-string-inside-parenthesis-ex-http-with-empty-content-)
+14. [Find quickly a word in a line using f ]()
+
+ 
+# 0. [Basics of VIM]()
+
+- normal mode [Esc]
+- insert mode [i]
+- replace mode
+
+selection mode - visual 
+							 - visual line
+							 - visual block
+- command line model
+
+notations for control + V
+´´´console
+^V
+Ctrl-V
+<C-V>
+´´´
+
+> the interface itself is a programming language
 
 # 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#vim)
 
@@ -149,5 +174,36 @@ output:
 ```console
 :%s/(.*)/()/
 ```
+
+# 14. [Find  a particular character in a line using f ]()
+
+In normal mode
+
+type:
+
+fa - finds the first a ahead of the cursor
+Fa - fins the first a before of the cursor.
+
+# 15. [Delete only a character]()
+
+type in normal mode:
+
+x
+
+# 16. [Change inside brackets]()
+
+in normal mode:
+
+```console
+ci[
+```
+
+# 17. [Quickly change a word or line]()
+
+cw		change word
+caw		
+ciw	
+cc 		change an entire line
+cis		change inside sentence
 
 
