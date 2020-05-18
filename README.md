@@ -188,13 +188,13 @@ type:
 fa - finds the first a ahead of the cursor
 Fa - fins the first a before of the cursor.
 
-# 15. [Delete only a character]()
+# 15. [Delete only a character](https://github.com/c4arl0s/VIM#vim)
 
 type in normal mode:
 
 x
 
-# 16. [Change inside brackets]()
+# 16. [Change inside brackets](https://github.com/c4arl0s/VIM#vim)
 
 in normal mode:
 
@@ -202,7 +202,7 @@ in normal mode:
 ci[
 ```
 
-# 17. [Quickly change a word or line]()
+# 17. [Quickly change a word or line](https://github.com/c4arl0s/VIM#vim)
 
 cw		change word
 caw		
