@@ -19,6 +19,10 @@ wiki VIM
 12. [Make upercase](https://github.com/c4arl0s/VIM#12-make-upercase)
 13. [Find any String inside parenthesis Ex. (http://...)](https://github.com/c4arl0s/VIM#13-find-any-string-inside-parenthesis-ex-http-with-empty-content-)
 14. [Find quickly a word in a line using f ]()
+15. [Delete only a character]()
+16. [Change inside brackets]()
+17. [Quickly change a word or line]()
+
 
  
 # 0. [Basics of VIM]()
