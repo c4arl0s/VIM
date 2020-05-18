@@ -18,7 +18,11 @@ wiki VIM
 11. [Make lowercase](https://github.com/c4arl0s/VIM#11-make-lowercase)
 12. [Make upercase](https://github.com/c4arl0s/VIM#12-make-upercase)
 13. [Find any String inside parenthesis Ex. (http://...)](https://github.com/c4arl0s/VIM#13-find-any-string-inside-parenthesis-ex-http-with-empty-content-)
-14. [Find quickly a word in a line using f ]()
+14. [Find quickly a word in a line using f ](https://github.com/c4arl0s/VIM#14-find--a-particular-character-in-a-line-using-f-)
+15. [Delete only a character](https://github.com/c4arl0s/VIM#15-delete-only-a-character)
+16. [Change inside brackets](https://github.com/c4arl0s/VIM#16-change-inside-brackets)
+17. [Quickly change a word or line](https://github.com/c4arl0s/VIM#17-quickly-change-a-word-or-line)
+
 
  
 # 0. [Basics of VIM]()
@@ -184,13 +188,13 @@ type:
 fa - finds the first a ahead of the cursor
 Fa - fins the first a before of the cursor.
 
-# 15. [Delete only a character]()
+# 15. [Delete only a character](https://github.com/c4arl0s/VIM#vim)
 
 type in normal mode:
 
 x
 
-# 16. [Change inside brackets]()
+# 16. [Change inside brackets](https://github.com/c4arl0s/VIM#vim)
 
 in normal mode:
 
@@ -198,7 +202,7 @@ in normal mode:
 ci[
 ```
 
-# 17. [Quickly change a word or line]()
+# 17. [Quickly change a word or line](https://github.com/c4arl0s/VIM#vim)
 
 cw		change word
 caw		
