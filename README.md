@@ -22,6 +22,7 @@ wiki VIM
 15. [Delete only a character](https://github.com/c4arl0s/VIM#15-delete-only-a-character)
 16. [Change inside brackets](https://github.com/c4arl0s/VIM#16-change-inside-brackets)
 17. [Quickly change a word or line](https://github.com/c4arl0s/VIM#17-quickly-change-a-word-or-line)
+18. [Jump to the place of last Edit]()
 
 
  
@@ -210,4 +211,10 @@ ciw
 cc 		change an entire line
 cis		change inside sentence
 
+
+# 18. [Jump to the place of last Edit]()
+
+```vim
+g;
+```
 
