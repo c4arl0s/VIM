@@ -23,7 +23,10 @@ wiki VIM
 16. [Change inside brackets](https://github.com/c4arl0s/VIM#16-change-inside-brackets)
 17. [Quickly change a word or line](https://github.com/c4arl0s/VIM#17-quickly-change-a-word-or-line)
 18. [Jump to the place of last Edit]()
-19. [Yank the current line, including the newline character at the end of the new line, yy or Y]
+19. [Yank the current line, including the newline character at the end of the new line, yy or Y]()
+20. [Jump to the place before of the last Edit]()
+21. [Yank the current word (no spaces)]()
+22. [Yank the current word (with sorounding spaces)]()
 
  
 # 0. [Basics of VIM]()
@@ -218,12 +221,35 @@ cis		change inside sentence
 g;
 ```
 
-# 19. [Yank the current line, including the newline character at the end of the new line, yy or Y]
+# 19. [Yank the current line, including the newline character at the end of the new line, yy or Y]()
 
 
 ```console
 yy
 Y
 ```
+
+# 20. [Jump to the place before of the last Edit]()
+
+Type again g; so many times required to find the last Edit
+
+```
+g;
+```
+
+# 21. [Yank the current word (no spaces)]()
+
+```console
+yiw
+```
+this command exclude white spaces around the word.
+
+# 22. [Yank the current word (with sorounding spaces)]()
+
+```console
+yaw
+```
+This command include whithe spaces sorounding
+
 
 
