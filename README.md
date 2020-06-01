@@ -27,7 +27,8 @@ wiki VIM
 20. [Jump to the place before of the last Edit]()
 21. [Yank the current word (no spaces)]()
 22. [Yank the current word (with sorounding spaces)]()
-
+23. [Yank all contained inside parenthesis ()]()
+24. [Yank all contained inside brackets []]()
  
 # 0. [Basics of VIM]()
 
@@ -251,5 +252,15 @@ yaw
 ```
 This command include whithe spaces sorounding
 
+#i23. [Yank all contained inside parenthesis ()]()
 
+```console
+yi)
+```
+
+24. [Yank all contained inside brackets []]()
+
+```console
+yi]
+```
 
