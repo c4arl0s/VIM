@@ -25,6 +25,8 @@ wiki VIM
 18. [Jump to the place of last Edit]()
 19. [Yank the current line, including the newline character at the end of the new line, yy or Y]()
 20. [Jump to the place before of the last Edit]()
+21. [Yank the current word (no spaces)]()
+22. [Yank the current word (with sorounding spaces)]()
 
  
 # 0. [Basics of VIM]()
@@ -234,3 +236,20 @@ Type again g; so many times required to find the last Edit
 ```
 g;
 ```
+
+# 21. [Yank the current word (no spaces)]()
+
+```console
+yiw
+```
+this command exclude white spaces around the word.
+
+# 22. [Yank the current word (with sorounding spaces)]()
+
+```console
+yaw
+```
+This command include whithe spaces sorounding
+
+
+
