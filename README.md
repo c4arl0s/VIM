@@ -29,6 +29,8 @@ wiki VIM
 22. [Yank the current word (with sorounding spaces)]()
 23. [Yank all contained inside parenthesis ()]()
 24. [Yank all contained inside brackets []]()
+25. [Replace the character under the cursor]()
+26. [Enter insert mode, replacing characters rather than inserting]()
  
 # 0. [Basics of VIM]()
 
@@ -263,4 +265,17 @@ yi)
 ```console
 yi]
 ```
+
+# 25. [Replace the character under the cursor]()
+
+```console
+r{character}
+```
+# 26. [Enter insert mode, replacing characters rather than inserting]()
+
+```console
+R
+```
+
+then start typing
 
