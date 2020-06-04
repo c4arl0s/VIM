@@ -32,6 +32,7 @@ wiki VIM
 25. [Replace the character under the cursor]()
 26. [Enter insert mode, replacing characters rather than inserting]()
 27. [redo]()
+28. [insert mode]()
 
 # 0. [Basics of VIM]()
 
@@ -283,6 +284,7 @@ then start typing
 # 27. [redo]()
 
 Type Esc, then
+
 ```console
 u
 ````
@@ -290,8 +292,24 @@ tyoe Esc, then
 
 ctrl-r 
 
-To redo the last undo command
+Type . to repeat the last command 
 
-Type . to copy the last redo command
 
+# 28. [insert mode]()
+
+i - insert before the cursor
+I - insert at the beginning of the line
+
+a - insert after the cursor (aopend)
+A - insert at the end of the line (append)
+
+o - insert a new line below the current line
+O - insert a new line above the current line
+
+ea - insert at the end of the word -
+
+
+
+
+ 
 
