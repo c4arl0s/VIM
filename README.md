@@ -31,7 +31,8 @@ wiki VIM
 24. [Yank all contained inside brackets []]()
 25. [Replace the character under the cursor]()
 26. [Enter insert mode, replacing characters rather than inserting]()
- 
+27. [redo]()
+
 # 0. [Basics of VIM]()
 
 - normal mode [Esc]
@@ -278,4 +279,19 @@ R
 ```
 
 then start typing
+
+# 27. [redo]()
+
+Type Esc, then
+```console
+u
+````
+tyoe Esc, then
+
+ctrl-r 
+
+To redo the last undo command
+
+Type . to copy the last redo command
+
 
