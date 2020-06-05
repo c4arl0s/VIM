@@ -33,6 +33,9 @@ wiki VIM
 26. [Enter insert mode, replacing characters rather than inserting]()
 27. [redo]()
 28. [insert mode]()
+29. [remove ... from this line: 1.1 Should Software Engineers Worry About Hardware ......... 23]()
+
+
 
 # 0. [Basics of VIM]()
 
@@ -297,19 +300,36 @@ Type . to repeat the last command
 
 # 28. [insert mode]()
 
-i - insert before the cursor
-I - insert at the beginning of the line
-
-a - insert after the cursor (aopend)
-A - insert at the end of the line (append)
-
-o - insert a new line below the current line
-O - insert a new line above the current line
-
-ea - insert at the end of the word -
-
-
+- i - insert before the cursor
+- I - insert at the beginning of the line
+- 
+- a - insert after the cursor (aopend)
+- A - insert at the end of the line (append)
+- 
+- o - insert a new line below the current line
+- O - insert a new line above the current line
+- 
+- ea - insert at the end of the word -
 
 
+# 29. [remove ... from this line: 1.1 Should Software Engineers Worry About Hardware ......... 23]()
+
+1.1 Should Software Engineers Worry About Hardware ......... 23
+
+remove all dots after the title, including the number 23
+
+```console
+:%s/\..*$//
+```
+
+%s			substitude all lines
+\.\.		scaped dot twice, because 1.1 could be taken.
+.* 			all 
+$ 			up to the end of the line
+//			replace with nothing.
+
+
+then the output is
+
+ 1.1 Should Software Engineers Worry About Hardware
  
-
