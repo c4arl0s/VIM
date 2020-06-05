@@ -34,7 +34,7 @@ wiki VIM
 27. [redo]()
 28. [insert mode]()
 29. [remove ... from this line: 1.1 Should Software Engineers Worry About Hardware ......... 23]()
-
+30. [Find any line starting by any number]()
 
 
 # 0. [Basics of VIM]()
@@ -332,4 +332,12 @@ $ 			up to the end of the line
 then the output is
 
  1.1 Should Software Engineers Worry About Hardware
- 
+
+
+# 30. [Find any line starting by any number]()
+
+```console
+/^[0-9]
+```
+
+
