@@ -1,8 +1,6 @@
 # VIM
 
-
 wiki VIM
-
 
 0. [Basics of VIM]()
 1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#1-how-to-insert-a-string-at-the-beginning-of-a-line)
@@ -34,7 +32,11 @@ wiki VIM
 27. [redo]()
 28. [insert mode]()
 29. [remove ... from this line: 1.1 Should Software Engineers Worry About Hardware ......... 23]()
-
+30. [Find any line starting by any number]()
+31. [Delete the last character the end of the line]()
+32. [Delete the last character at the end of the line if it is a number]()
+33. [Delete the last two characters at the end of the line if it is a number]()
+34. [Delete the last n characters at the end of a line]()
 
 
 # 0. [Basics of VIM]()
@@ -332,4 +334,30 @@ $ 			up to the end of the line
 then the output is
 
  1.1 Should Software Engineers Worry About Hardware
- 
+
+
+# 30. [Find any line starting by any number]()
+
+```console
+/^[0-9]
+```
+
+# 31. [Delete the last character the end of the line]()
+
+```console
+s/$//
+```
+
+# 32. [Delete the last character at the end of the line if it is a number]()
+
+```console
+s/.[1-9]$//
+```
+
+# 33. [Delete the last two characters at the end of the line if it is a number]()
+
+```console
+s/.[1-9][1-9]$//
+```
+
+# 34. [Delete the last n characters at the end of a line]()
