@@ -354,10 +354,38 @@ s/$//
 s/.[1-9]$//
 ```
 
-# 33. [Delete the last two characters at the end of the line if it is a number]()
+# 33. [Delete the last two characters at the end of the line if they both were a number]()
 
 ```console
 s/.[1-9][1-9]$//
 ```
 
-# 34. [Delete the last n characters at the end of a line]()
+# 34. [Delete the first n characters at the end of a line]()
+
+replace n with the deired number of characters
+
+```console
+:%s/^.\{3}//
+```
+
+# 35. [Delete empty lines]()
+
+```console
+:%g/^\s*$/d
+```
+
+# 36. [Delete 1 or more of the preceding spaces at the end of the line]()
+
+```console
+%s/\s\+$//
+```
+
+# 36 [find any header or implementation name file (class.h class.m)
+
+```console
+/\<\w*\.h\w*\>/
+```
+
+```console
+/\<\w*\.m\w*\>/
+```
