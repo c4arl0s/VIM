@@ -380,5 +380,12 @@ replace n with the deired number of characters
 %s/\s\+$//
 ```
 
+# 36 [find any header or implementation name file (class.h class.m)
 
+```console
+/\<\w*\.h\w*\>/
+```
 
+```console
+/\<\w*\.m\w*\>/
+```
