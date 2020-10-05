@@ -362,7 +362,7 @@ s/.[1-9][1-9]$//
 
 # 34. [Delete the first n characters at the end of a line]()
 
-replace n with the deired number of characters
+replace n with the desired number of characters
 
 ```console
 :%s/^.\{3}//
@@ -380,7 +380,7 @@ replace n with the deired number of characters
 %s/\s\+$//
 ```
 
-# 36 [find any header or implementation name file (class.h class.m)
+# 37. [find any header or implementation name file (class.h class.m)]()
 
 ```console
 /\<\w*\.h\w*\>/
@@ -389,3 +389,18 @@ replace n with the deired number of characters
 ```console
 /\<\w*\.m\w*\>/
 ```
+
+# 38. [Find a file's name string like class.swift]()
+
+```console
+/<\w*\.swift\w*>/
+```
+
+# 39. [Find a swift or objective-c method like `nameMethof(parameter:)` ]()
+
+```console
+/\w*(.*:)/
+```
+
+
+
