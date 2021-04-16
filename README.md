@@ -28,7 +28,7 @@ wiki VIM
 21. [Yank the current word (no spaces)](https://github.com/c4arl0s/VIM#21-yank-the-current-word-no-spaces)
 22. [Yank the current word (with sorounding spaces)](https://github.com/c4arl0s/VIM#22-yank-the-current-word-with-sorounding-spaces)
 23. [Yank all contained inside parenthesis ()](https://github.com/c4arl0s/VIM/blob/master/README.md#23-yank-all-contained-inside-parenthesis-)
-24. [Yank all contained inside brackets [](https://github.com/c4arl0s/VIM#26-enter-insert-mode-replacing-characters-rather-than-inserting)
+24. [Yank all contained inside brackets](https://github.com/c4arl0s/VIM#26-enter-insert-mode-replacing-characters-rather-than-inserting)
 25. [Replace the character under the cursor](https://github.com/c4arl0s/VIM#25-replace-the-character-under-the-cursor)
 26. [Enter insert mode, replacing characters rather than inserting](https://github.com/c4arl0s/VIM#26-enter-insert-mode-replacing-characters-rather-than-inserting)
 27. [redo](https://github.com/c4arl0s/VIM#27-redo)
@@ -39,6 +39,7 @@ wiki VIM
 32. [Delete the last character at the end of the line if it is a number](https://github.com/c4arl0s/VIM#32-delete-the-last-character-at-the-end-of-the-line-if-it-is-a-number)
 33. [Delete the last two characters at the end of the line if it is a number](https://github.com/c4arl0s/VIM#33-delete-the-last-two-characters-at-the-end-of-the-line-if-they-both-were-a-number)
 34. [Delete the last n characters at the end of a line](https://github.com/c4arl0s/VIM#34-delete-the-first-n-characters-at-the-end-of-a-line)
+34. [Using your last course, find any number of digits at the end of a sentences in any line](https://github.com/c4arl0s/VIM#34-using-your-last-course-find-any-number-of-digits-at-the-end-of-a-sentence-in-any-line)
 
 
 # 0. [Basics of VIM](https://github.com/c4arl0s/VIM#vim)
@@ -318,9 +319,9 @@ Type . to repeat the last command
 
 # 29. [remove ... from this line: 1.1 Should Software Engineers Worry About Hardware ......... 23](https://github.com/c4arl0s/VIM#vim)
 
-1.1 Should Software Engineers Worry About Hardware ......... 23
+1.1 Should Software Engineers Worry About Hardware .........
 
-remove all dots after the title, including the number 23
+remove all dots after the title, including the number
 
 ```console
 :%s/\..*$//
@@ -404,5 +405,19 @@ replace n with the desired number of characters
 /\w*(.*:)/
 ```
 
+# 34. [Using your last course, find any number of digits at the end of a sentence in any line](https://github.com/c4arl0s/VIM#vim)
 
+```console
+/ [0-9]\+$//
+```
+
+Example:
+
+```txt
+1. [this is a test](blablablabla)  Page 1234
+```
+
+It finds the space character and 1234, remember the space, to find this kind of pattern.
+
+![Screen Shot 2021-04-16 at 13 45 23](https://user-images.githubusercontent.com/24994818/115070033-0599c000-9eba-11eb-8d18-4e92db8a0058.png)
 
