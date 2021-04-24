@@ -2,23 +2,21 @@
 
 # [VIM](https://github.com/c4arl0s/VIM#go-back-to-overview)
 
-wiki VIM
-
 0. [Basics of VIM](https://github.com/c4arl0s/VIM#0-basics-of-vim)
-1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM/blob/master/README.md#1-how-to-insert-a-string-at-the-beginning-of-a-line)
-2. [How to cut and paste](https://github.com/c4arl0s/VIM/blob/master/README.md#2-how-to-cut-and-paste-ctrl-v-or-ctrl-v)
-3. [How to find a string](https://github.com/c4arl0s/VIM/blob/master/README.md#3-how-to-find-a-string)
-4. [how to replace with an / across the string to replace](https://github.com/c4arl0s/VIM/blob/master/README.md#4-how-to-replace-with-an--across-the-string-to-replace)
-5. [Repeats the last action](https://github.com/c4arl0s/VIM/blob/master/README.md#5-repeats-the-last-action)
-6. [Insert a # character at the beginning of the line](https://github.com/c4arl0s/VIM/blob/master/README.md#6-insert-a--character-at-the-beginning-of-the-line)
-7. [Find an precise string an replace with something](https://github.com/c4arl0s/VIM/blob/master/README.md#7-find-an-precise-string-an-replace-with-something)
-8. [Insert a character or string at the end of a selected line](https://github.com/c4arl0s/VIM/blob/master/README.md#8-insert-a-character-or-string-at-the-end-of-a-selected-line)
+1. [How to insert a string at the beginning of a line](https://github.com/c4arl0s/VIM#1-how-to-insert-a-string-at-the-beginning-of-a-line)
+2. [How to cut and paste (ctrl-v or ctrl-V)](https://github.com/c4arl0s/VIM#2-how-to-cut-and-paste-ctrl-v-or-ctrl-v)
+3. [How to find a string](https://github.com/c4arl0s/VIM#3-how-to-find-a-string)
+4. [how to replace with an / across the string to replace](https://github.com/c4arl0s/VIM#4-how-to-replace-with-an--across-the-string-to-replace)
+5. [Repeats the last action](https://github.com/c4arl0s/VIM#5-repeats-the-last-action)
+6. [Insert a # character at the beginning of the line](https://github.com/c4arl0s/VIM#6-insert-a--character-at-the-beginning-of-the-line)
+7. [Find an precise string an replace with something](https://github.com/c4arl0s/VIM#7-find-an-precise-string-an-replace-with-something)
+8. [Insert a character or string at the end of a selected line](https://github.com/c4arl0s/VIM#8-insert-a-character-or-string-at-the-end-of-a-selected-line)
 9. [Insert a consecutive number at the beginning of a selected line](https://github.com/c4arl0s/VIM#9-insert-a-consecutive-number-at-the-beginning-of-a-selected-line)
-10. [Delete all lines that contains a specific patter](https://github.com/c4arl0s/VIM#10-delete-all-lines-that-contains-a-specific-pattern)
+10. [Delete all lines that contains a specific pattern](https://github.com/c4arl0s/VIM#10-delete-all-lines-that-contains-a-specific-pattern)
 11. [Make lowercase](https://github.com/c4arl0s/VIM#11-make-lowercase)
 12. [Make upercase](https://github.com/c4arl0s/VIM#12-make-upercase)
-13. [Find any String inside parenthesis Ex. (http://...)](https://github.com/c4arl0s/VIM#13-find-any-string-inside-parenthesis-ex-http-with-empty-content-)
-14. [Find quickly a word in a line using f ](https://github.com/c4arl0s/VIM#14-find--a-particular-character-in-a-line-using-f-)
+13. [Find any String inside parenthesis Ex. (http://...) with empty content ()](https://github.com/c4arl0s/VIM#13-find-any-string-inside-parenthesis-ex-http-with-empty-content-)
+14. [Find  a particular character in a line using f ](https://github.com/c4arl0s/VIM#14-find--a-particular-character-in-a-line-using-f-)
 15. [Delete only a character](https://github.com/c4arl0s/VIM#15-delete-only-a-character)
 16. [Change inside brackets](https://github.com/c4arl0s/VIM#16-change-inside-brackets)
 17. [Quickly change a word or line](https://github.com/c4arl0s/VIM#17-quickly-change-a-word-or-line)
@@ -27,8 +25,8 @@ wiki VIM
 20. [Jump to the place before of the last Edit](https://github.com/c4arl0s/VIM#20-jump-to-the-place-before-of-the-last-edit)
 21. [Yank the current word (no spaces)](https://github.com/c4arl0s/VIM#21-yank-the-current-word-no-spaces)
 22. [Yank the current word (with sorounding spaces)](https://github.com/c4arl0s/VIM#22-yank-the-current-word-with-sorounding-spaces)
-23. [Yank all contained inside parenthesis ()](https://github.com/c4arl0s/VIM/blob/master/README.md#23-yank-all-contained-inside-parenthesis-)
-24. [Yank all contained inside brackets](https://github.com/c4arl0s/VIM#26-enter-insert-mode-replacing-characters-rather-than-inserting)
+23. [Yank all contained inside parenthesis ()](https://github.com/c4arl0s/VIM#23-yank-all-contained-inside-parenthesis-)
+24. [Yank all contained inside brackets](https://github.com/c4arl0s/VIM#24-yank-all-contained-inside-brackets-)
 25. [Replace the character under the cursor](https://github.com/c4arl0s/VIM#25-replace-the-character-under-the-cursor)
 26. [Enter insert mode, replacing characters rather than inserting](https://github.com/c4arl0s/VIM#26-enter-insert-mode-replacing-characters-rather-than-inserting)
 27. [redo](https://github.com/c4arl0s/VIM#27-redo)
@@ -37,10 +35,15 @@ wiki VIM
 30. [Find any line starting by any number](https://github.com/c4arl0s/VIM#30-find-any-line-starting-by-any-number)
 31. [Delete the last character the end of the line](https://github.com/c4arl0s/VIM#31-delete-the-last-character-the-end-of-the-line)
 32. [Delete the last character at the end of the line if it is a number](https://github.com/c4arl0s/VIM#32-delete-the-last-character-at-the-end-of-the-line-if-it-is-a-number)
-33. [Delete the last two characters at the end of the line if it is a number](https://github.com/c4arl0s/VIM#33-delete-the-last-two-characters-at-the-end-of-the-line-if-they-both-were-a-number)
-34. [Delete the last n characters at the end of a line](https://github.com/c4arl0s/VIM#34-delete-the-first-n-characters-at-the-end-of-a-line)
-34. [Using your last course, find any number of digits at the end of a sentences in any line](https://github.com/c4arl0s/VIM#34-using-your-last-course-find-any-number-of-digits-at-the-end-of-a-sentence-in-any-line)
-
+33. [Delete the last two characters at the end of the line if they both were a number](https://github.com/c4arl0s/VIM#33-delete-the-last-two-characters-at-the-end-of-the-line-if-they-both-were-a-number)
+34. [Delete the first n characters at the end of a line](https://github.com/c4arl0s/VIM#34-delete-the-first-n-characters-at-the-end-of-a-line)
+35. [Delete empty lines](https://github.com/c4arl0s/VIM#35-delete-empty-lines)
+36. [Delete 1 or more of the preceding spaces at the end of the line](https://github.com/c4arl0s/VIM#36-delete-1-or-more-of-the-preceding-spaces-at-the-end-of-the-line)
+37. [find any header or implementation name file (class.h class.m)](https://github.com/c4arl0s/VIM#37-find-any-header-or-implementation-name-file-classh-classm)
+38. [Find a file's name string like class.swift](https://github.com/c4arl0s/VIM#38-find-a-files-name-string-like-classswift)
+39. [Find a swift or objective-c method like `nameMethod(parameter:)` ](https://github.com/c4arl0s/VIM#39-find-a-swift-or-objective-c-method-like-namemethodparameter-)
+40. [Using your last course, find any number of digits at the end of a sentence in any line](https://github.com/c4arl0s/VIM#40-using-your-last-course-find-any-number-of-digits-at-the-end-of-a-sentence-in-any-line)
+41. [Enumerate selected lines](https://github.com/c4arl0s/VIM#41-enumerate-selected-lines)
 
 # 0. [Basics of VIM](https://github.com/c4arl0s/VIM#vim)
 
@@ -196,7 +199,7 @@ output:
 :%s/(.*)/()/
 ```
 
-# 14. [Find  a particular character in a line using f ]()
+# 14. [Find  a particular character in a line using f ](https://github.com/c4arl0s/VIM#vim)
 
 In normal mode
 
@@ -357,7 +360,7 @@ s/$//
 s/.[1-9]$//
 ```
 
-# 33. [Delete the last two characters at the end of the line if they both were a number]()
+# 33. [Delete the last two characters at the end of the line if they both were a number](https://github.com/c4arl0s/VIM#vim)
 
 ```console
 s/.[1-9][1-9]$//
@@ -377,7 +380,7 @@ replace n with the desired number of characters
 :%g/^\s*$/d
 ```
 
-# 36. [Delete 1 or more of the preceding spaces at the end of the line]()
+# 36. [Delete 1 or more of the preceding spaces at the end of the line](https://github.com/c4arl0s/VIM#vim)
 
 ```console
 %s/\s\+$//
@@ -399,13 +402,13 @@ replace n with the desired number of characters
 /<\w*\.swift\w*>/
 ```
 
-# 39. [Find a swift or objective-c method like `nameMethof(parameter:)` ](https://github.com/c4arl0s/VIM#vim)
+# 39. [Find a swift or objective-c method like `nameMethod(parameter:)` ](https://github.com/c4arl0s/VIM#vim)
 
 ```console
 /\w*(.*:)/
 ```
 
-# 34. [Using your last course, find any number of digits at the end of a sentence in any line](https://github.com/c4arl0s/VIM#vim)
+# 40. [Using your last course, find any number of digits at the end of a sentence in any line](https://github.com/c4arl0s/VIM#vim)
 
 ```console
 / [0-9]\+$//
@@ -421,3 +424,8 @@ It finds the space character and 1234, remember the space, to find this kind of 
 
 ![Screen Shot 2021-04-16 at 13 45 23](https://user-images.githubusercontent.com/24994818/115070033-0599c000-9eba-11eb-8d18-4e92db8a0058.png)
 
+# 41. [Enumerate selected lines](https://github.com/c4arl0s/VIM#vim)
+
+```console
+:let i=1 | '<,'>g/^/s//\=i.'. '/ | let i=i+1
+```
