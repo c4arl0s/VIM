@@ -44,6 +44,7 @@
 39. [Find a swift or objective-c method like `nameMethod(parameter:)` ](https://github.com/c4arl0s/VIM#39-find-a-swift-or-objective-c-method-like-namemethodparameter-)
 40. [Using your last course, find any number of digits at the end of a sentence in any line](https://github.com/c4arl0s/VIM#40-using-your-last-course-find-any-number-of-digits-at-the-end-of-a-sentence-in-any-line)
 41. [Enumerate selected lines](https://github.com/c4arl0s/VIM#41-enumerate-selected-lines)
+42. [Add/insert words to your own word list <spellfile>](https://github.com/c4arl0s/VIM#42-addinsert-words-to-your-own-word-list-)
 
 # 0. [Basics of VIM](https://github.com/c4arl0s/VIM#vim)
 
@@ -51,17 +52,18 @@
 - insert mode [i]
 - replace mode
 
-selection mode - visual 
+Selection mode - visual 
 							 - visual line
 							 - visual block
 - command line model
 
-notations for control + V
-´´´console
+Notations for control + V
+
+```console
 ^V
 Ctrl-V
 <C-V>
-´´´
+```
 
 > the interface itself is a programming language
 
@@ -429,3 +431,10 @@ It finds the space character and 1234, remember the space, to find this kind of 
 ```console
 :let i=1 | '<,'>g/^/s//\=i.'. '/ | let i=i+1
 ```
+
+# 42. [Add/insert words to your own word list <spellfile>](https://github.com/c4arl0s/VIM#vim)
+
+```txt
+zg
+```
+
