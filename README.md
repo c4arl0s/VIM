@@ -46,6 +46,7 @@
 41. [Enumerate selected lines](https://github.com/c4arl0s/VIM#41-enumerate-selected-lines)
 42. [Add/insert words to your own word list <spellfile>](https://github.com/c4arl0s/VIM#42-addinsert-words-to-your-own-word-list-)
 43. [Cursor movement VIM](https://github.com/c4arl0s/VIM#43-cursor-movement-vim)
+44. [Insert mode - inserting/appending text]()
 
 # 0. [Basics of VIM](https://github.com/c4arl0s/VIM#vim)
 
@@ -480,4 +481,15 @@ Ctrl + d - move forward 1/2 a screen
 Ctrl + u - move back 1/2 a screen
 Tip Prefix a cursor movement command with a number to repeat it. For example, 4j moves down 4 lines.
 ```
+# 44. [Insert mode - inserting/appending text]()
 
+```txt
+i - insert before the cursor
+I - insert at the beginning of the line
+a - insert (append) after the cursor
+A - insert (append) at the end of the line
+o - append (open) a new line below the current line
+O - append (open) a new line above the current line
+ea - insert (append) at the end of the word
+Esc - exit insert mode
+```
