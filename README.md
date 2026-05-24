@@ -434,7 +434,7 @@ It finds the space character and 1234, remember the space, to find this kind of 
 :let i=1 | '<,'>g/^/s//\=i.'. '/ | let i=i+1
 ```
 
-# 42. [Add/insert words to your own word list <spellfile>]()
+# 42. [Add/insert words to your own word list <spellfile>](https://github.com/c4arl0s/VIM#vim)
 
 ```txt
 zg
@@ -481,7 +481,7 @@ Ctrl + d - move forward 1/2 a screen
 Ctrl + u - move back 1/2 a screen
 Tip Prefix a cursor movement command with a number to repeat it. For example, 4j moves down 4 lines.
 ```
-# 44. [Insert mode - inserting/appending text]()
+# 44. [Insert mode - inserting/appending text](https://github.com/c4arl0s/VIM#vim)
 
 ```txt
 i - insert before the cursor
@@ -493,3 +493,46 @@ O - append (open) a new line above the current line
 ea - insert (append) at the end of the word
 Esc - exit insert mode
 ```
+# 45 [Paste over text betwwen two parenthesis](https://github.com/c4arl0s/VIM#vim)
+
+Yank the content of the first pair of parentheses.
+
+```console
+yi)
+```
+
+Visually select the content of the second pair of parentheses and put:
+
+```console
+yi)p
+```
+
+(jdksadjksaldjksaljdklasdjklasdskad)
+(jdksadjksaldjksaljdklasdjklasdskad)
+
+# 46 [Join lines](https://github.com/c4arl0s/VIM#vim)
+
+Create a command or macro for VIM in order to put in one line this following text:
+
+```text
+"The view layer contains all the objects that you see on the user screen
+and objects that support them. Among the examples are classes that are
+subclasses of UIView like UIButton, UITableView, and more. But not only
+are views part of this layer – you can also find transitions, Core Graphics
+code, animation, layouts, images, and colors."
+```
+
+As you can see it contains new lines after "screen", "are", "only" and "Graphics" words, remove these new lines and the complete sentence should be on one line. Create a macro or command in VIM in order to do this.
+
+### Option 1: Visual Selection + Join
+Select the paragraph visually, then join all lines:
+
+vim
+
+```vim
+vipJ
+```
+
+vip — select the inner paragraph
+J — join all selected lines into one
+
