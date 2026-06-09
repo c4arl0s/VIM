@@ -536,3 +536,17 @@ vipJ
 vip — select the inner paragraph
 J — join all selected lines into one
 
+# 47
+
+To replace all irregular spacing (tabs, multiple spaces, or newlines) and separate all words with a single space all over the file, run the following command in Vim's normal mode:
+
+```vim
+vim:%s/\s\+/ /g
+```
+
+Use code with caution.i Here is exactly how this actionable command works:
+* `:%s`: Tells Vim to run a substitution (search and replace) across the entire file (from line 1 to the end).
+* `\s\+`: The search pattern. It matches any sequence of whitespace characters (one or more), including tabs (\t), newlines, and multiple continuous spaces.
+* `/ `: The replacement. It replaces any match found with exactly one single space.
+* `/g`: The global flag. It ensures this substitution happens on every single occurrence in the line, rather than just the first one.
+
